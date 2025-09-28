@@ -1,8 +1,8 @@
-@define-color base #a5cadf;
-@define-color text #000000;
+@define-color base rgba(50,50,50,0.7);
+@define-color text #ffffff;
 
 * {
-  font-family: 'Inconsolata Nerd Font', monospace;
+  font-family: monospace;
   font-size: 14px;
   color: @text;
 }
@@ -32,7 +32,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
@@ -52,7 +52,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
 }
 
 /* Scroll */
@@ -60,7 +60,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
 }
 
 /* Input */
@@ -69,7 +69,7 @@ window {
   padding: 10px;
   border: none;
   border-radius: 0.2em;
-  background-color: @base;
+  background-color: transparent;
   animation: fadeIn 0.5s ease-in-out both;
   color: @text;
 }
@@ -89,7 +89,7 @@ window {
 }
 
 #entry {
-  background-color: @base;
+  background-color: transparent;
 }
 
 #entry arrow {
